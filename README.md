@@ -24,6 +24,7 @@ cd website
 
 ## Install the frontend dependencies:
 npm i
+
 npm install @livekit/components-react @livekit/components-styles livekit-client --save
 
 ## Start the frontend:
