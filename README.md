@@ -4,55 +4,35 @@ This should include your API keys, model settings, and any other required variab
 
 Go to the backend folder:
 
-bash
-Copy
-Edit
 cd backend
 Install the required Python packages:
 
-nginx
-Copy
-Edit
+Install requirements:
 pip install -r requirements.txt
+
+
 Start the backend server:
-
-nginx
-Copy
-Edit
 python server.py
-In a new terminal, start the AI agent:
 
-nginx
-Copy
-Edit
+
+In a new terminal, start the AI agent:
 python agent.py dev
+
+
 Now go to the website folder and add your LiveKit URL to the .env file.
 
 Navigate to the website folder:
-
-bash
-Copy
-Edit
 cd website
+
 Install the frontend dependencies:
-
-sql
-Copy
-Edit
-npm install
+npm i
 npm install @livekit/components-react @livekit/components-styles livekit-client --save
-Start the frontend:
 
-arduino
-Copy
-Edit
+Start the frontend:
 npm run dev
+
 ✅ Requirements
 Python 3.x installed
-
 Node.js installed
 
-LiveKit account with server URL
-
-.env files configured correctly in both backend and website folders
 
