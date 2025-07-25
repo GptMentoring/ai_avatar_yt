@@ -33,6 +33,7 @@ npm run dev
 # ✅ Requirements
 Python 3.x installed
 
+Node.js  installed
 nvm installed
 
 Node.js installed
