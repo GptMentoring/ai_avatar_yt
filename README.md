@@ -1,62 +1,58 @@
-AI Agent & Web Application
-This project includes a Python-based AI agent backend and a React-based frontend powered by LiveKit.
+🛠️ Setup Instructions
+Add your information to the .env file in the backend folder.
+This should include your API keys, model settings, and any other required variables.
 
-🚀 Getting Started
-Follow these steps to set up and run both the backend and frontend.
-
-📁 Backend Setup
-1. Configure Environment Variables
-Create a .env file inside the backend folder and add all required configuration values (such as API keys, environment settings, etc.).
-
-2. Install Dependencies
-Open a terminal and run:
+Go to the backend folder:
 
 bash
 Copy
 Edit
 cd backend
+Install the required Python packages:
+
+nginx
+Copy
+Edit
 pip install -r requirements.txt
-3. Start Backend Services
-Run the backend server and the AI agent:
+Start the backend server:
 
 nginx
 Copy
 Edit
 python server.py
-python agent.py dev
-🌐 Frontend Setup (Website)
-1. Configure LiveKit URL
-In the website folder, create or update the .env file and add your LiveKit server URL.
+In a new terminal, start the AI agent:
 
-2. Install Frontend Dependencies
-Run the following commands:
+nginx
+Copy
+Edit
+python agent.py dev
+Now go to the website folder and add your LiveKit URL to the .env file.
+
+Navigate to the website folder:
 
 bash
 Copy
 Edit
 cd website
+Install the frontend dependencies:
+
+sql
+Copy
+Edit
 npm install
 npm install @livekit/components-react @livekit/components-styles livekit-client --save
-3. Start the Web Application
-Start the development server:
+Start the frontend:
 
 arduino
 Copy
 Edit
 npm run dev
-✅ Prerequisites
-Make sure the following are installed on your machine:
+✅ Requirements
+Python 3.x installed
 
-Python 3.x
-Download Python
+Node.js installed
 
-Node.js
-Download Node.js
+LiveKit account with server URL
 
-🛠 Notes
-Run the backend and frontend in separate terminal windows.
+.env files configured correctly in both backend and website folders
 
-Ensure that both .env files (backend/.env and website/.env) are correctly set up before starting the services.
-
-📄 License
-[Specify your license here, e.g., MIT License]
