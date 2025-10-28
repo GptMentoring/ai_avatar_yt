@@ -14,10 +14,10 @@ import {
   Target,
   Zap
 } from "lucide-react";
-import fitnessCardioArea from "@/assets/fitness-cardio-area.jpg";
-import fitnessStrengthArea from "@/assets/fitness-strength-area.jpg";
-import fitnessGroupClass from "@/assets/fitness-group-class.jpg";
-import fitnessFunctionalTraining from "@/assets/fitness-functional-training.jpg";
+const fitnessCardioArea = "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg";
+const fitnessStrengthArea = "https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg";
+const fitnessGroupClass = "https://images.pexels.com/photos/3764011/pexels-photo-3764011.jpeg";
+const fitnessFunctionalTraining = "https://images.pexels.com/photos/3838389/pexels-photo-3838389.jpeg";
 
 const FitnessCenter = () => {
   const navigate = useNavigate();

@@ -12,7 +12,7 @@ import {
   Phone,
   Calendar
 } from "lucide-react";
-import spaImage from "@/assets/spa-amenities.jpg";
+const spaImage = "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg";
 
 const SpaWellness = () => {
   const navigate = useNavigate();

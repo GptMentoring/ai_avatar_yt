@@ -24,13 +24,13 @@ import {
   MessageCircle
 } from "lucide-react";
 
-// Import images
-import heroImage from "@/assets/hero-hotel.jpg";
-import suiteImage from "@/assets/suite-room.jpg";
-import diningImage from "@/assets/dining-restaurant.jpg";
-import meetingImage from "@/assets/meeting-room.jpg";
-import spaImage from "@/assets/spa-amenities.jpg";
-import loungeImage from "@/assets/lounge-area.jpg";
+// Use Pexels stock photos
+const heroImage = "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg";
+const suiteImage = "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg";
+const diningImage = "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg";
+const meetingImage = "https://images.pexels.com/photos/159806/meeting-modern-room-conference-159806.jpeg";
+const spaImage = "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg";
+const loungeImage = "https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg";
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState("home");
