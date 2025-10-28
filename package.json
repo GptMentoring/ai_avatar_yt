@@ -1,0 +1,12 @@
+{
+  "name": "grand-luxe-hotel",
+  "version": "1.0.0",
+  "description": "The Grand Luxe - Luxury Hotel Website",
+  "scripts": {
+    "dev": "cd website && npm run dev",
+    "build": "cd website && npm install && npm run build",
+    "preview": "cd website && npm run preview",
+    "postinstall": "cd website && npm install"
+  },
+  "private": true
+}
